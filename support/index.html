@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore ways to support ElimuPlus-Link Foundation's work for inclusive, quality education in Tanzania.">
+  <meta name="theme-color" content="#0B315B">
+  <link rel="canonical" href="https://elimpluslinkfoundation.org/support/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Support ELF | ElimuPlus-Link Foundation</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="ElimuPlus-Link Foundation home">
+    <img src="/elimuplus-link-foundation-logo.jpeg" alt="ElimuPlus-Link Foundation logo">
+    <span>ELIMUPLUS-LINK<br><b>FOUNDATION</b></span>
+  </a>
+
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="/about/">About</a>
+    <a href="/programs/">Programs</a>
+    <a href="/our-approach/">Our approach</a>
+    <a href="/impact/">Impact</a>
+    <a href="/contact/">Contact</a>
+    <a class="button small" href="/support/" aria-current="page">Support ELF</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Support ElimuPlus-Link Foundation</p>
+      <h1>Be part of a learner’s future.</h1>
+      <p class="lead">Individuals and organizations can help advance quality, relevant, and inclusive education for learners in Tanzania.</p>
+    </div>
+
+    <aside class="hero-card">
+      <p class="eyebrow">Thank you</p>
+      <p>Every responsible conversation, connection, partnership, and contribution can help strengthen opportunities for learners and educators.</p>
+    </aside>
+  </section>
+
+  <section class="program-list">
+    <div>
+      <p class="eyebrow">Ways to help</p>
+      <h2>Support takes many forms.</h2>
+    </div>
+
+    <div class="program-columns">
+      <article>
+        <h3>Partner with ELF</h3>
+        <p>Schools, community groups, nonprofit organizations, businesses, and institutions can explore collaborations that support inclusive education and learner opportunity.</p>
+      </article>
+
+      <article>
+        <h3>Volunteer expertise</h3>
+        <p>Educators, mentors, technical specialists, facilitators, and other professionals may be able to contribute relevant knowledge and experience.</p>
+      </article>
+
+      <article>
+        <h3>Connect ELF to resources</h3>
+        <p>Introductions to appropriate partners, learning resources, training opportunities, and education-focused networks can be valuable forms of support.</p>
+      </article>
+
+      <article>
+        <h3>Discuss financial support</h3>
+        <p>Online donation infrastructure is being finalized. Please contact ELF directly to discuss responsible support, funding opportunities, or potential contributions.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="approach">
+    <p class="eyebrow">A responsible invitation</p>
+    <h2>We welcome support that puts learners first.</h2>
+
+    <div class="pill-grid">
+      <span>Individuals</span>
+      <span>Educators</span>
+      <span>Schools</span>
+      <span>Community groups</span>
+      <span>Nonprofits</span>
+      <span>Corporate partners</span>
+    </div>
+
+    <p>ELF aims to develop support relationships that are transparent, respectful, practical, and aligned with the organization’s education mission and accountability commitments.</p>
+  </section>
+
+  <section class="support">
+    <div>
+      <p class="eyebrow">Contact ELF</p>
+      <h2>Start the conversation.</h2>
+      <p>Tell us whether you are interested in partnership, volunteering, introductions, fundraising, or another way of supporting inclusive education in Tanzania.</p>
+    </div>
+
+    <a class="button light" href="mailto:info@elimupluslinkfoundation.com?subject=Support%20for%20ElimuPlus-Link%20Foundation">Email ELF about support</a>
+  </section>
+</main>
+
+<footer>
+  <img src="/elimuplus-link-foundation-logo.jpeg" alt="" aria-hidden="true">
+  <p>© <span id="year"></span> ElimuPlus-Link Foundation. Empowering Tanzanian Learners for Global Impact.</p>
+</footer>
+
+<script>
+  const b = document.querySelector('.menu');
+  const n = document.querySelector('#nav');
+
+  b.addEventListener('click', () => {
+    const x = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', !x);
+    n.classList.toggle('open');
+  });
+
+  document.querySelector('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
