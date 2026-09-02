@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://elimpluslinkfoundation.org/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://elimpluslinkfoundation.org/</loc>
+  </url>
+  <url>
+    <loc>https://elimpluslinkfoundation.org/about/</loc>
+  </url>
+  <url>
+    <loc>https://elimpluslinkfoundation.org/programs/</loc>
+  </url>
+  <url>
+    <loc>https://elimpluslinkfoundation.org/our-approach/</loc>
+  </url>
+  <url>
+    <loc>https://elimpluslinkfoundation.org/impact/</loc>
+  </url>
+  <url>
+    <loc>https://elimpluslinkfoundation.org/contact/</loc>
+  </url>
+  <url>
+    <loc>https://elimpluslinkfoundation.org/support/</loc>
+  </url>
+</urlset>
