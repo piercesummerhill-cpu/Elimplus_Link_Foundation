@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about ElimuPlus-Link Foundation, a Tanzanian nonprofit working to advance inclusive, innovative, quality education.">
+  <meta name="theme-color" content="#0B315B">
+  <link rel="canonical" href="https://elimpluslinkfoundation.org/about/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>About ELF | ElimuPlus-Link Foundation</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="ElimuPlus-Link Foundation home">
+    <img src="/elimuplus-link-foundation-logo.jpeg" alt="ElimuPlus-Link Foundation logo">
+    <span>ELIMUPLUS-LINK<br><b>FOUNDATION</b></span>
+  </a>
+
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="/about/" aria-current="page">About</a>
+    <a href="/programs/">Programs</a>
+    <a href="/our-approach/">Our approach</a>
+    <a href="/impact/">Impact</a>
+    <a href="/contact/">Contact</a>
+    <a class="button small" href="/support/">Support ELF</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">About ElimuPlus-Link Foundation</p>
+      <h1>Education that connects learners to opportunity.</h1>
+      <p class="lead">ELIMUPLUS-LINK FOUNDATION (ELF) is a Tanzanian-based non-profit organization founded by educators, community leaders, and reformers.</p>
+    </div>
+
+    <aside class="hero-card">
+      <p class="eyebrow">Our vision</p>
+      <p>A Tanzania where every learner is equipped with the knowledge, skills, and character to drive positive change and excel in the global community.</p>
+    </aside>
+  </section>
+
+  <section class="intro">
+    <p class="eyebrow">Who we are</p>
+    <h2>Helping education prepare learners for the future.</h2>
+    <p>ELF works to bridge the gap between the education system and the skills learners need to succeed in a global marketplace. We support educators and promote equitable learning environments so more young people can access quality, relevant, and inclusive education.</p>
+
+    <div class="statement-grid">
+      <article>
+        <h3>Our mission</h3>
+        <p>To transform education in Tanzania by developing and supporting highly effective teachers and leaders, creating innovative and inclusive learning models, and advocating for a safe, equitable, and technology-enhanced educational environment for every child.</p>
+      </article>
+
+      <article>
+        <h3>Our commitment</h3>
+        <p>We put learners first and work with schools, communities, families, partners, and existing systems to pursue sustainable educational change.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="approach">
+    <p class="eyebrow">Our values</p>
+    <h2>Guided by integrity and learner-centered change.</h2>
+
+    <div class="pill-grid">
+      <span>Transparency</span>
+      <span>Integrity</span>
+      <span>Child-centricity</span>
+      <span>Inclusion</span>
+      <span>Passion for change</span>
+      <span>Respect for Tanzanian law</span>
+    </div>
+
+    <p>ELF believes sustainable progress in education is built through responsible collaboration, thoughtful innovation, and respect for the communities and learners we serve.</p>
+  </section>
+
+  <section class="support">
+    <div>
+      <p class="eyebrow">Explore ELF</p>
+      <h2>See how our work supports learners and educators.</h2>
+      <p>Learn about ELF’s education priorities, initiatives, and ways to connect with the organization.</p>
+    </div>
+
+    <a class="button light" href="/programs/">Explore programs</a>
+  </section>
+</main>
+
+<footer>
+  <img src="/elimuplus-link-foundation-logo.jpeg" alt="" aria-hidden="true">
+  <p>© <span id="year"></span> ElimuPlus-Link Foundation. Empowering Tanzanian Learners for Global Impact.</p>
+</footer>
+
+<script>
+  const b = document.querySelector('.menu');
+  const n = document.querySelector('#nav');
+
+  b.addEventListener('click', () => {
+    const x = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', !x);
+    n.classList.toggle('open');
+  });
+
+  document.querySelector('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
