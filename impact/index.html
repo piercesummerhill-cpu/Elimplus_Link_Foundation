@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ElimuPlus-Link Foundation's commitment to accountability, transparency, and verified education impact in Tanzania.">
+  <meta name="theme-color" content="#0B315B">
+  <link rel="canonical" href="https://elimpluslinkfoundation.org/impact/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Impact &amp; Accountability | ElimuPlus-Link Foundation</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="ElimuPlus-Link Foundation home">
+    <img src="/elimuplus-link-foundation-logo.jpeg" alt="ElimuPlus-Link Foundation logo">
+    <span>ELIMUPLUS-LINK<br><b>FOUNDATION</b></span>
+  </a>
+
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="/about/">About</a>
+    <a href="/programs/">Programs</a>
+    <a href="/our-approach/">Our approach</a>
+    <a href="/impact/" aria-current="page">Impact</a>
+    <a href="/contact/">Contact</a>
+    <a class="button small" href="/support/">Support ELF</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Impact &amp; accountability</p>
+      <h1>Building accountability into the journey.</h1>
+      <p class="lead">ELF is committed to pursuing educational change with transparency, integrity, and a clear focus on learners.</p>
+    </div>
+
+    <aside class="hero-card">
+      <p class="eyebrow">Our commitment</p>
+      <p>We will share verified program information, outcomes, reports, and stories as they become available.</p>
+    </aside>
+  </section>
+
+  <section class="impact">
+    <div>
+      <p class="eyebrow">Tracking progress</p>
+      <h2>Measuring what matters.</h2>
+      <p>ELF intends to monitor progress in ways that reflect learner opportunity, educator support, inclusive participation, and the quality of learning environments.</p>
+      <p>As the organization’s programs develop, this page will share verified information about activities, reach, lessons learned, and outcomes.</p>
+    </div>
+
+    <div class="metrics">
+      <article>
+        <strong>—</strong>
+        <span>Learners reached<br><em>Verified data forthcoming</em></span>
+      </article>
+
+      <article>
+        <strong>—</strong>
+        <span>Teachers supported<br><em>Verified data forthcoming</em></span>
+      </article>
+
+      <article>
+        <strong>—</strong>
+        <span>Schools &amp; communities<br><em>Verified data forthcoming</em></span>
+      </article>
+    </div>
+  </section>
+
+  <section class="approach">
+    <p class="eyebrow">Accountability principles</p>
+    <h2>Trust is built through clear and responsible information.</h2>
+
+    <div class="pill-grid">
+      <span>Transparency</span>
+      <span>Integrity</span>
+      <span>Child-centricity</span>
+      <span>Evidence-based practice</span>
+      <span>Respect</span>
+    </div>
+
+    <p>ELF is committed to sharing only information that has been appropriately verified. We will distinguish future plans from active work and publish reports, data, and stories responsibly as they become available.</p>
+  </section>
+
+  <section class="program-list">
+    <div>
+      <p class="eyebrow">Future updates</p>
+      <h2>What this page will share.</h2>
+    </div>
+
+    <div class="program-columns">
+      <article>
+        <h3>Program updates</h3>
+        <p>Confirmed information about education activities, learning opportunities, and collaborations will be added as it becomes available.</p>
+      </article>
+
+      <article>
+        <h3>Verified measures</h3>
+        <p>Where appropriate, ELF will publish clear measures of reach, participation, and learning-related progress.</p>
+      </article>
+
+      <article>
+        <h3>Reports and documents</h3>
+        <p>Relevant reports, policies, and organizational documents may be made available here when approved for public sharing.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="support">
+    <div>
+      <p class="eyebrow">Stay connected</p>
+      <h2>Ask questions. Explore partnership.</h2>
+      <p>ELF welcomes responsible partnership and support conversations with people and organizations committed to quality, inclusive education.</p>
+    </div>
+
+    <a class="button light" href="/contact/">Contact ELF</a>
+  </section>
+</main>
+
+<footer>
+  <img src="/elimuplus-link-foundation-logo.jpeg" alt="" aria-hidden="true">
+  <p>© <span id="year"></span> ElimuPlus-Link Foundation. Empowering Tanzanian Learners for Global Impact.</p>
+</footer>
+
+<script>
+  const b = document.querySelector('.menu');
+  const n = document.querySelector('#nav');
+
+  b.addEventListener('click', () => {
+    const x = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', !x);
+    n.classList.toggle('open');
+  });
+
+  document.querySelector('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
