@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn how ElimuPlus-Link Foundation works with schools, communities, families, and partners to advance inclusive education in Tanzania.">
+  <meta name="theme-color" content="#0B315B">
+  <link rel="canonical" href="https://elimpluslinkfoundation.org/our-approach/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Our Approach | ElimuPlus-Link Foundation</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="ElimuPlus-Link Foundation home">
+    <img src="/elimuplus-link-foundation-logo.jpeg" alt="ElimuPlus-Link Foundation logo">
+    <span>ELIMUPLUS-LINK<br><b>FOUNDATION</b></span>
+  </a>
+
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="/about/">About</a>
+    <a href="/programs/">Programs</a>
+    <a href="/our-approach/" aria-current="page">Our approach</a>
+    <a href="/impact/">Impact</a>
+    <a href="/contact/">Contact</a>
+    <a class="button small" href="/support/">Support ELF</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">How we work</p>
+      <h1>Local collaboration. Thoughtful innovation. Lasting progress.</h1>
+      <p class="lead">ELF works with existing structures while developing practical, inclusive, and future-oriented approaches to education.</p>
+    </div>
+
+    <aside class="hero-card">
+      <p class="eyebrow">Our belief</p>
+      <p>Enduring educational change is created with learners, educators, families, schools, and communities—not apart from them.</p>
+    </aside>
+  </section>
+
+  <section class="approach">
+    <p class="eyebrow">Principles in action</p>
+    <h2>Five ways ELF approaches educational change.</h2>
+
+    <div class="pill-grid">
+      <span>Collaboration</span>
+      <span>Innovation</span>
+      <span>Inclusion</span>
+      <span>Evidence-based practice</span>
+      <span>Holistic development</span>
+    </div>
+
+    <p>These principles guide how ELF seeks to develop learning opportunities, build relationships, assess progress, and plan for sustainable growth.</p>
+  </section>
+
+  <section class="program-list">
+    <div>
+      <p class="eyebrow">Working alongside communities</p>
+      <h2>Designed for relevance and sustainability.</h2>
+    </div>
+
+    <div class="program-columns">
+      <article>
+        <h3>Collaborate with existing systems</h3>
+        <p>ELF seeks to work alongside government schools, educators, families, community leaders, and partners to strengthen—not duplicate—the structures learners already depend on.</p>
+      </article>
+
+      <article>
+        <h3>Support innovation that can grow</h3>
+        <p>We explore teaching and learning models that respond to local needs while remaining practical, adaptable, and capable of reaching more learners over time.</p>
+      </article>
+
+      <article>
+        <h3>Prioritize inclusion and learner well-being</h3>
+        <p>We aim to reach marginalized communities and support learning environments that are safe, equitable, respectful, and responsive to the whole learner.</p>
+      </article>
+
+      <article>
+        <h3>Use evidence to guide improvement</h3>
+        <p>ELF intends to use clear measures of progress, learning from what works and sharing verified information as programs develop.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="section-heading">
+      <p class="eyebrow">Future-oriented education</p>
+      <h2>Preparing learners to contribute locally and globally.</h2>
+      <p>ELF’s approach links academic opportunity with leadership, critical thinking, well-being, technology, communication, and practical skills for a changing world.</p>
+    </div>
+  </section>
+
+  <section class="support">
+    <div>
+      <p class="eyebrow">Connect with ELF</p>
+      <h2>Build stronger learning communities with us.</h2>
+      <p>We welcome partnership conversations with schools, educators, community organizations, nonprofits, and supporters committed to inclusive education.</p>
+    </div>
+
+    <a class="button light" href="/contact/">Contact ELF</a>
+  </section>
+</main>
+
+<footer>
+  <img src="/elimuplus-link-foundation-logo.jpeg" alt="" aria-hidden="true">
+  <p>© <span id="year"></span> ElimuPlus-Link Foundation. Empowering Tanzanian Learners for Global Impact.</p>
+</footer>
+
+<script>
+  const b = document.querySelector('.menu');
+  const n = document.querySelector('#nav');
+
+  b.addEventListener('click', () => {
+    const x = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', !x);
+    n.classList.toggle('open');
+  });
+
+  document.querySelector('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
