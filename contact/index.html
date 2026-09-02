@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact ElimuPlus-Link Foundation for partnerships, programs, volunteering, and education support inquiries.">
+  <meta name="theme-color" content="#0B315B">
+  <link rel="canonical" href="https://elimpluslinkfoundation.org/contact/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Contact ELF | ElimuPlus-Link Foundation</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="ElimuPlus-Link Foundation home">
+    <img src="/elimuplus-link-foundation-logo.jpeg" alt="ElimuPlus-Link Foundation logo">
+    <span>ELIMUPLUS-LINK<br><b>FOUNDATION</b></span>
+  </a>
+
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="/about/">About</a>
+    <a href="/programs/">Programs</a>
+    <a href="/our-approach/">Our approach</a>
+    <a href="/impact/">Impact</a>
+    <a href="/contact/" aria-current="page">Contact</a>
+    <a class="button small" href="/support/">Support ELF</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Contact ELF</p>
+      <h1>Let’s work together.</h1>
+      <p class="lead">For partnership, program, volunteer, and support inquiries, please contact ElimuPlus-Link Foundation.</p>
+    </div>
+
+    <aside class="hero-card">
+      <p class="eyebrow">Connect with us</p>
+      <p>We welcome conversations with schools, educators, communities, partners, supporters, and organizations committed to inclusive education.</p>
+    </aside>
+  </section>
+
+  <section class="contact">
+    <div>
+      <p class="eyebrow">Contact details</p>
+      <h2>Start a conversation.</h2>
+      <p>Please use the email address or telephone numbers below. Include a short description of your inquiry so the ELF team can respond appropriately.</p>
+
+      <div class="actions">
+        <a class="button" href="mailto:info@elimupluslinkfoundation.com">Email ELF</a>
+        <a class="button outline" href="tel:+255625803222">Call ELF</a>
+      </div>
+    </div>
+
+    <address>
+      <p><b>ElimuPlus-Link Foundation</b><br>P.O. Box 1652<br>Mwanza City, Mwanza<br>Tanzania, East Africa</p>
+
+      <p>
+        <a href="mailto:info@elimupluslinkfoundation.com">info@elimupluslinkfoundation.com</a>
+      </p>
+
+      <p>
+        <a href="tel:+255625803222">+255 625 803 222</a><br>
+        <a href="tel:+255784855491">+255 784 855 491</a><br>
+        <a href="tel:+255794937666">+255 794 937 666</a>
+      </p>
+
+      <p>Registration No. 00NGOR4685</p>
+    </address>
+  </section>
+
+  <section class="approach">
+    <p class="eyebrow">Ways to connect</p>
+    <h2>Partnership starts with a conversation.</h2>
+
+    <div class="pill-grid">
+      <span>School partnerships</span>
+      <span>Educator collaboration</span>
+      <span>Community engagement</span>
+      <span>Volunteer interest</span>
+      <span>Support inquiries</span>
+    </div>
+
+    <p>ELF values respectful, practical collaboration. If you are interested in supporting inclusive and future-oriented education in Tanzania, we would be glad to hear from you.</p>
+  </section>
+</main>
+
+<footer>
+  <img src="/elimuplus-link-foundation-logo.jpeg" alt="" aria-hidden="true">
+  <p>© <span id="year"></span> ElimuPlus-Link Foundation. Empowering Tanzanian Learners for Global Impact.</p>
+</footer>
+
+<script>
+  const b = document.querySelector('.menu');
+  const n = document.querySelector('#nav');
+
+  b.addEventListener('click', () => {
+    const x = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', !x);
+    n.classList.toggle('open');
+  });
+
+  document.querySelector('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
