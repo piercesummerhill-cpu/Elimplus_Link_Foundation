@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore ElimuPlus-Link Foundation's education priorities, learning initiatives, and program areas in Tanzania.">
+  <meta name="theme-color" content="#0B315B">
+  <link rel="canonical" href="https://elimpluslinkfoundation.org/programs/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Programs &amp; Initiatives | ElimuPlus-Link Foundation</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="ElimuPlus-Link Foundation home">
+    <img src="/elimuplus-link-foundation-logo.jpeg" alt="ElimuPlus-Link Foundation logo">
+    <span>ELIMUPLUS-LINK<br><b>FOUNDATION</b></span>
+  </a>
+
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="/about/">About</a>
+    <a href="/programs/" aria-current="page">Programs</a>
+    <a href="/our-approach/">Our approach</a>
+    <a href="/impact/">Impact</a>
+    <a href="/contact/">Contact</a>
+    <a class="button small" href="/support/">Support ELF</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Programs &amp; initiatives</p>
+      <h1>Learning, leadership, and well-being.</h1>
+      <p class="lead">ELF’s program framework connects classroom quality, learner well-being, access, and future-ready skills.</p>
+    </div>
+
+    <aside class="hero-card">
+      <p class="eyebrow">Our focus</p>
+      <p>We work toward learning environments where learners, teachers, families, schools, and communities can thrive together.</p>
+    </aside>
+  </section>
+
+  <section class="band">
+    <div class="section-heading">
+      <p class="eyebrow">Education priorities</p>
+      <h2>Building stronger learning ecosystems.</h2>
+      <p>Our thematic areas are designed to support equitable, relevant, and innovative education in Tanzania.</p>
+    </div>
+
+    <div class="cards">
+      <article>
+        <h3>Teacher leadership training</h3>
+        <p>Continuous professional development to help create classrooms of the future.</p>
+      </article>
+
+      <article>
+        <h3>Ed-tech integration</h3>
+        <p>Leveraging technology to create and share high-quality instructional tools.</p>
+      </article>
+
+      <article>
+        <h3>Girls’ education &amp; gender equality</h3>
+        <p>Programs designed to keep girls in school and promote female leadership.</p>
+      </article>
+
+      <article>
+        <h3>Holistic student development</h3>
+        <p>Initiatives that support 21st-century skills, leadership, and well-being.</p>
+      </article>
+
+      <article>
+        <h3>Alternative education</h3>
+        <p>Community-based learning opportunities for underserved young people.</p>
+      </article>
+
+      <article>
+        <h3>Advocacy &amp; policy engagement</h3>
+        <p>Advocating for quality education and child rights.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="program-list">
+    <div>
+      <p class="eyebrow">Initiative framework</p>
+      <h2>Skills for school, life, and the future.</h2>
+    </div>
+
+    <div class="program-columns">
+      <article>
+        <h3>Building future skills</h3>
+        <p>Code Tanzania Clubs, Digital Media Labs, and Critical Thinking Debate Clubs are designed to build computational thinking, communication, technical skills, and evidence-based reasoning.</p>
+      </article>
+
+      <article>
+        <h3>Fostering leadership &amp; innovation</h3>
+        <p>The ELF Student Innovation Challenge, Peer Leadership Programs, and Model United Nations simulations are designed to help learners collaborate, lead, research, and solve local problems.</p>
+      </article>
+
+      <article>
+        <h3>Promoting health &amp; well-being</h3>
+        <p>School Gardening &amp; Nutrition, Mindful Classrooms, Guidance &amp; Counseling Corners, and wellness workshops are designed to support healthy, focused learning environments.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="approach">
+    <p class="eyebrow">A careful commitment</p>
+    <h2>Focused on meaningful and measurable progress.</h2>
+    <p>Program details, delivery status, verified outcomes, and participant stories will be published as they become available. ELF will distinguish confirmed work from future initiatives as the organization grows.</p>
+  </section>
+
+  <section class="support">
+    <div>
+      <p class="eyebrow">Get involved</p>
+      <h2>Help advance inclusive education in Tanzania.</h2>
+      <p>ELF welcomes conversations with schools, educators, community groups, nonprofit organizations, prospective partners, volunteers, and supporters.</p>
+    </div>
+
+    <a class="button light" href="/contact/">Contact ELF</a>
+  </section>
+</main>
+
+<footer>
+  <img src="/elimuplus-link-foundation-logo.jpeg" alt="" aria-hidden="true">
+  <p>© <span id="year"></span> ElimuPlus-Link Foundation. Empowering Tanzanian Learners for Global Impact.</p>
+</footer>
+
+<script>
+  const b = document.querySelector('.menu');
+  const n = document.querySelector('#nav');
+
+  b.addEventListener('click', () => {
+    const x = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', !x);
+    n.classList.toggle('open');
+  });
+
+  document.querySelector('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
